@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #222;
+    padding: 10px 0;
+    font-size: large;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li img {
+    width: 24px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    align-self: right;
+}
+
+/* Country Specific Themes */
+.greece {
+    background-color: #0d5cab6a;
+}
+
+.italy {
+    background-color: #00924790;
+}
+
+.spain {
+    background-color: #ffcc008c;
+}
+
+.france {
+    background-color: #0023958c;
+}
+
+.india {
+    background-color: #ff99339e;
+}
+
+.image-container {
+    margin: 20px auto;
+    max-width: 80%;
+}
+
+h1 {
+    color: #000000;
+}
