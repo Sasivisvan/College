@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Railway Information System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-image: url('train.jpg');
+            background-size: cover;
+            background-position: center;
+            color: rgb(255, 255, 255);
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 15px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background-color: rgba(151, 59, 255, 0.836);
+            padding: 20px;
+            border-radius: 10px;
+            place-items: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+        }
+        table, th, td {
+            border: 1px solid rgb(255, 255, 255);
+            padding: 10px;
+            text-align: center;
+        }
+        a {
+            color: yellow;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>Indian Railway Information System</header>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="container">
+        <h2>Train Schedule</h2>
+        <table>
+            <tr>
+                <th>Train Name</th>
+                <th>Train Number</th>
+                <th>Source</th>
+                <th>Destination</th>
+                <th>More Info</th>
+            </tr>
+            <tr>
+                <td>Rajdhani Express</td>
+                <td>12301</td>
+                <td>New Delhi</td>
+                <td>Mumbai</td>
+                <td><a href="#">Details</a></td>
+            </tr>
+            <tr>
+                <td>Shatabdi Express</td>
+                <td>12002</td>
+                <td>Chennai</td>
+                <td>Bangalore</td>
+                <td><a href="#">Details</a></td>
+            </tr>
+            <tr>
+                <td>Duronto Express</td>
+                <td>12245</td>
+                <td>Kolkata</td>
+                <td>Delhi</td>
+                <td><a href="#">Details</a></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
