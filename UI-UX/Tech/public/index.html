@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase Setup</title>
+</head>
+<body>
+
+    <h1>Firebase App Setup</h1>
+
+    <!-- Firebase Initialization -->
+    <script type="module">
+        // Import Firebase modules
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-analytics.js";
+
+        // Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyDkuMN_RORdvOnD_tsWV5T8NDCmI73ndCM",
+            authDomain: "techwebsite-4c896.firebaseapp.com",
+            projectId: "techwebsite-4c896",
+            storageBucket: "techwebsite-4c896.appspot.com",
+            messagingSenderId: "242816115450",
+            appId: "1:242816115450:web:b39935c42bc2b827315f43",
+            measurementId: "G-YNY7HQSSBK"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+
+        console.log(firebase);
+    </script>
+
+</body>
+</html>
